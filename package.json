@@ -1,0 +1,18 @@
+{
+  "name": "@mdhnpm/aws-lambda-template-generator",
+  "version": "1.0.0",
+  "description": "AWS Lambda template generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate-template-now": "lib/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "recursive-copy": "^2.0.10"
+  }
+}

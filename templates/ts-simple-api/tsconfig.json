@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["es2017"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "inlineSourceMap": true /* Emit a single file with source maps instead of having a separate file. */
+  },
+  "include" : [
+      "./src/**/*"
+  ],
+  "exclude" : [
+      "./test/**/*",
+      "./integration/**/*"
+  ]
+}

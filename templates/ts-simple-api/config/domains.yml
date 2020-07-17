@@ -1,0 +1,6 @@
+domainName: boilerplate.${self:custom.stage}.your.domain.name
+stage: ${self:custom.stage}
+basePath: basepassforapigateway
+certificateName: ${self:custom.certs.${self:custom.stage}, self:custom.certs.default}
+# can create Route53 record with deployment by serverless-domain-manager
+createRoute53Record: true

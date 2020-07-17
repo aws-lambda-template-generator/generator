@@ -1,0 +1,5 @@
+- Effect: Allow
+  Action:
+    - ssm:Describe*
+    - ssm:Get*
+  Resource: arn:aws:ssm:ap-southeast-2:${self:custom.account}:parameter/*
