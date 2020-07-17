@@ -1,6 +1,6 @@
 {
   "name": "@mdhnpm/aws-lambda-template-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "AWS Lambda template generator",
   "main": "index.js",
   "scripts": {
