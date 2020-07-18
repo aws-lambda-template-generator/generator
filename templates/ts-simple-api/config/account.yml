@@ -1,3 +1,0 @@
-REGION: <target aws region such as ap-southeast-2>
-ACCOUNT_ID: <Account Id>
-DEPLOYMENT_BUCKET: <deployment bucket name>

@@ -1,7 +1,21 @@
 # aws-lambda-template-generator
 
-Work in progress prototype for CLI tool for generating AWS Lambda function template.
+CLI tool for generating AWS Lambda function template.
 
-This project has been moved to its own open source repository [here](https://github.com/aws-lambda-template-generator/generator)
+The project is still very new. We are looking for collaborators who can enrich our lambda template selections. Come to our git repo and contribute to the project!
 
+## Get Started
 
+Install the module globally. It will add the command generate-lambda-template.
+
+```bash
+npm i -g aws-lambda-template-generator
+```
+
+Then, run the generate-lambda-template command with the name of your project. Default project name is my-lambda if you don't pass the argument.
+
+```bash
+generate-lambda-template my-new-lambda-function
+```
+
+Follow the prompt.

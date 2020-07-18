@@ -1,5 +1,0 @@
-# certificate names
-prod: your.certificate.name
-dev: your.certificate.name
-test: '*.your.certificate.name'
-default: '*.your.certificate.name'

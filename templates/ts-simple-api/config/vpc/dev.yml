@@ -1,9 +1,0 @@
-securityGroupIds:
-  - < it looks like sg-48dsetc >
-
-# can add multiple subnet Ids
-subnetIds:
-  - < Subnet Id looks like subnet-483948etc >
-  - < Subnet Id looks like subnet-483948etc >
-  - < Subnet Id looks like subnet-483948etc >
-  
