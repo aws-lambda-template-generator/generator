@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "jest": false,
+    "mocha": false,
+    "es6": true,
+    "jquery": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "script"
+  },
+  "rules": {
+    "curly": "error",
+    "keyword-spacing": ["error", { "after": true }],
+    "no-undef": "off",
+    "no-redeclare": "error",
+    "no-irregular-whitespace": "error",
+    "no-trailing-spaces": "error",
+    "no-useless-escape": "error",
+    "no-class-assign": "error",
+    "no-inner-declarations": "error",
+    "no-unreachable": "error",
+    "no-debugger": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "prefer-const": "error",
+    "eol-last": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "space-before-blocks": "error",
+    "space-infix-ops": "error",
+    "space-before-function-paren": ["error", "never"]
+  }
+}

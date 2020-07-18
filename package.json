@@ -1,18 +1,35 @@
 {
   "name": "aws-lambda-template-generator",
-  "version": "1.0.4",
+  "version": "1.0.11",
   "description": "AWS Lambda template generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "integration": "mocha --recursive --timeout 300000 integration/**/*.spec.js",
+    "testPrompt": "node ./integration/promptManagerCheck.js"
   },
   "bin": {
     "generate-template-now": "lib/cli.js"
   },
-  "keywords": [],
+  "files": [
+    "lib",
+    "templates"
+  ],
+  "keywords": [
+    "aws-lambda-template-generator",
+    "Serverless",
+    "Template generator",
+    "CLI tool",
+    "AWS Lambda"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "install": "^0.13.0",
     "recursive-copy": "^2.0.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "mocha": "^8.0.1"
   }
 }
