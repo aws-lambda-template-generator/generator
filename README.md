@@ -19,3 +19,7 @@ generate-lambda-template my-new-lambda-function
 ```
 
 Follow the prompt.
+
+# What does it create?
+
+It will create a folder with files for whichever lambda function example you choose.
