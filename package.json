@@ -12,7 +12,8 @@
     "test": "nyc --reporter=html --reporter=text mocha --recursive --timeout 30000 lib/**/*.spec.js",
     "test:watch": "mocha --recursive --timeout 30000 lib/**/*.spec.js --watch",
     "integration": "mocha --recursive --timeout 300000 integration/**/*.spec.js",
-    "testCli": "node ./lib/cli.js"
+    "testCli": "node ./lib/cli.js",
+    "build": "parcel 'ink-support'/example.jsx"
   },
   "bin": {
     "generate-lambda-template": "lib/cli.js"
