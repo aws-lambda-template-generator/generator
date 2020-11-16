@@ -20,7 +20,6 @@ generate-lambda-template my-new-lambda-function
 
 Follow the prompt.
 
-<<<<<<< HEAD
 ## What does it create?
 
 It will create a folder with files for whichever lambda function example you choose.
@@ -28,8 +27,3 @@ It will create a folder with files for whichever lambda function example you cho
 ## Frameworks
 
 At the moment, all the templates use [serverless](https://www.serverless.com/). We are working towards adding different frameworks in the future. Stay tuned!
-=======
-# What does it create?
-
-It will create a folder with files for whichever lambda function example you choose.
->>>>>>> 1ca9c90... Updated Readme
