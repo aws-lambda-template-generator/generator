@@ -3,3 +3,7 @@ my-lambda/
 
 .nyc_output
 coverage
+
+dist
+
+.cache
