@@ -31,7 +31,9 @@
   "license": "ISC",
   "dependencies": {
     "download-git-repo": "^3.0.2",
+    "ink": "^3.0.8",
     "install": "^0.13.0",
+    "react": "^17.0.1",
     "recursive-copy": "^2.0.10"
   },
   "devDependencies": {
@@ -39,6 +41,7 @@
     "eslint": "^7.4.0",
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
+    "parcel-bundler": "^1.12.4",
     "sinon": "^9.0.2"
   }
 }
