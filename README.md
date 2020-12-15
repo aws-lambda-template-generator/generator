@@ -4,17 +4,26 @@ CLI tool for generating AWS Lambda function template. It will create a folder wi
 
 The project is still very new. We are looking for collaborators who can enrich our lambda template selections. Come to our git repo and contribute to the project!
 
-At the moment, all the templates use [serverless](https://www.serverless.com/). We are working towards adding different frameworks in the future. As for language support, we currently have TypeScript and JavaScript. We are planning to add more templates.
+At the moment, all the templates use [serverless](https://www.serverless.com/). We are working towards adding different frameworks in the future. As for language support, we currently have TypeScript and JavaScript. We are planning to add more languages.
+
+<br />
+
+## Why do you want to use it?
+
+The template has everything you need to deploy a production-ready lambda function, including AWS resources creation, solid code examples, unit tests, integration tests, deployment pipeline and configurations ready to deploy lambda into multiple environments (e.g. dev, tst, stg, prod). Easy to use configuration files with solid explanations on what each configuration does.
+
+<br />
 
 ## List of lambda functions ✨
 
-Template Name                            | Languages              | Framework     | Use Case                                                                               | 
----------------------------------------- | ---------------------- | ------------- | -------------------------------------------------------------------------------------- |
-multiple-api-proxy                       | TypeScript             | Serverless    | Integration. API proxy, get and post, single endpoint, multiple paths with API gateway |
-simple-api-proxy                         | TypeScript, JavaScript | Serverless    | Integration. Basic example with API gateway                                            |
-amazon-connect-metrics-to-kinesis        | TypeScript             | Serverless    | Real-time data ingestion for Amazon connect metrics to Kinesis                         |
-step-function-schedule-lambda-every-30s  | TypeScript, JavaScript | Serverless    | Scheduling lambda function faster 60s (faster than CloudWatch Event)                   |
+Template Name                            | Languages              | Framework     | Use Case                                                                                        | 
+---------------------------------------- | ---------------------- | ------------- | ----------------------------------------------------------------------------------------------- |
+multiple-api-proxy                       | TypeScript             | Serverless    | Integration. API proxy, GET and POST requests, single endpoint, multiple paths with API gateway |
+simple-api-proxy                         | TypeScript, JavaScript | Serverless    | Integration. Basic example with API gateway                                                     |
+amazon-connect-metrics-to-kinesis        | TypeScript             | Serverless    | Real-time data ingestion for Amazon connect metrics to Kinesis                                  |
+step-function-schedule-lambda-every-30s  | TypeScript, JavaScript | Serverless    | Scheduling lambda function faster than 60s (beyond CloudWatch Event scheduling capability)      |
 
+<br />
 
 ## Get Started 🏄🏻‍♀️
 
