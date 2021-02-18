@@ -4,7 +4,7 @@ CLI tool for generating AWS Lambda function template. It will create a folder wi
 
 The project is still very new. We are looking for collaborators who can enrich our lambda template selections. Come to our git repo and contribute to the project!
 
-At the moment, most of the templates use [serverless](https://www.serverless.com/). We have a template with [SAM](https://aws.amazon.com/serverless/sam/)(AWS Serverless Application Model). We are working towards adding more templates with SAM in the future. So, stay tuned if you are into SAM. As for language support, we currently have TypeScript and JavaScript. We are planning to add more languages.
+At the moment, most of the templates use [serverless](https://www.serverless.com/). We have a template with [SAM](https://aws.amazon.com/serverless/sam/) (AWS Serverless Application Model). We are working towards adding more templates with SAM in the future. So, stay tuned if you are into SAM. As for language support, we currently have TypeScript and JavaScript. We are planning to add more languages.
 
 <br />
 

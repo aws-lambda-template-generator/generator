@@ -24,6 +24,7 @@
   "keywords": [
     "aws-lambda-template-generator",
     "Serverless",
+    "SAM",
     "Template generator",
     "CLI tool",
     "AWS Lambda"
