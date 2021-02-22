@@ -44,3 +44,10 @@ Follow the prompt.
 
 <img src="img/cli-img.png" />
 
+### Todos
+
+List of todos ideas...
+
+- Add scope (https://github.blog/2021-02-12-avoiding-npm-substitution-attacks/).
+
+- Try ink for better console experience.
