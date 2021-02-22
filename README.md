@@ -48,6 +48,6 @@ Follow the prompt.
 
 List of todos ideas...
 
-- Add scope (https://github.blog/2021-02-12-avoiding-npm-substitution-attacks/).
+- Add scope (https://github.blog/2021-02-12-avoiding-npm-substitution-attacks/). But, do we need this for npm module installed globally? We need to invstigate it.
 
 - Try ink for better console experience.
