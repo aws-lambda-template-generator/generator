@@ -22,7 +22,7 @@ multiple-api-proxy                       | TypeScript             | Serverless  
 simple-api-proxy                         | TypeScript, JavaScript | Serverless, SAM  | Integration. Basic example with API gateway                                                     |
 amazon-connect-metrics-to-kinesis        | TypeScript             | Serverless       | Real-time data ingestion for Amazon connect metrics to Kinesis                                  |
 step-function-schedule-lambda-every-30s  | TypeScript, JavaScript | Serverless       | Scheduling lambda function faster than 60s (beyond CloudWatch Event scheduling capability)      |
-graphql-hello-world                      | TypeScript, JavaScript | Serverless       | Lambda function with GraphQL support. Simple function that returns hello world message.         |
+graphql-hello-world                      | TypeScript, JavaScript | Serverless, SAM  | Lambda function with GraphQL support. Simple function that returns hello world message.         |
 graphql-dynamodb                         | TypeScript             | Serverless       | Lambda function with GraphQL with DynamoDb. Endpoint supports both queries and mutations.       |
 <br />
 
