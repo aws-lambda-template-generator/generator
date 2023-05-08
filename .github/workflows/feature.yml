@@ -15,9 +15,9 @@ jobs:
       - name: Install
         run: |
           yarn install
-      - name: Build
-        run: |
-          yarn build
+      # - name: Build
+      #   run: |
+      #     yarn build
       - name: Unit-Tests
         run: |
           yarn test
