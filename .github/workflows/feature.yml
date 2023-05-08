@@ -2,7 +2,7 @@ name: Test and Build from feature branch
 on:
   push:
     branches-ignore:
-      - "main"
+      - "master"
 jobs:
   test-and-build-feature-branch:
     runs-on: ubuntu-latest

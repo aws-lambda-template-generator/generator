@@ -2,7 +2,7 @@ name: Publish NPM Module
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
