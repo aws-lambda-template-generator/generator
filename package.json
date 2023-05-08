@@ -8,12 +8,11 @@
     "type": "git",
     "url": "https://github.com/aws-lambda-template-generator/generator"
   },
-  "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha --recursive --timeout 30000 lib/**/*.spec.js",
-    "test:watch": "mocha --recursive --timeout 30000 lib/**/*.spec.js --watch",
-    "integration": "mocha --recursive --timeout 300000 integration/**/*.spec.js",
-    "testCli": "node ./lib/cli.js",
-    "build": "parcel 'ink-support'/example.jsx"
+  "author": "mdh",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "bin": {
     "generate-lambda-template": "lib/cli.js"
@@ -29,21 +28,35 @@
     "CLI tool",
     "AWS Lambda"
   ],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha --recursive --timeout 30000 lib/**/*.spec.js",
+    "test:watch": "mocha --recursive --timeout 30000 lib/**/*.spec.js --watch",
+    "integration": "mocha --recursive --timeout 300000 integration/**/*.spec.js",
+    "testCli": "node ./lib/cli.js",
+    "build": "parcel 'ink-support'/example.jsx",
+    "commit": "cz"
+  },
   "dependencies": {
     "download-git-repo": "^3.0.2",
     "ink": "^3.0.8",
     "install": "^0.13.0",
     "react": "^17.0.1",
-    "recursive-copy": "^2.0.10"
+    "recursive-copy": "^2.0.10",
+    "commit": "cz"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "chai": "^4.2.0",
+    "commitizen": "^4.2.4",
     "eslint": "^7.4.0",
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
     "parcel-bundler": "^1.12.4",
+    "semantic-release": "^19.0.2",
     "sinon": "^9.0.2"
   }
 }
