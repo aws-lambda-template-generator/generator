@@ -11,3 +11,13 @@ If we have a private module (e.g. my-module) and pull the dependencies from ther
 ## Mystery commitizen issue...
 
 https://github.com/commitizen/cz-cli/issues/441
+
+Ok, I just needed to add this in package.json
+
+```json
+"config": {
+  "commitizen": {
+    "path": "cz-conventional-changelog"
+  }
+},
+```
