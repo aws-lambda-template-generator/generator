@@ -36,6 +36,11 @@
     "build": "parcel 'ink-support'/example.jsx",
     "commit": "cz"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "download-git-repo": "^3.0.2",
     "ink": "^3.0.8",
