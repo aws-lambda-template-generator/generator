@@ -49,7 +49,7 @@ module.exports = {
     "@semantic-release/github",
   ],
   branches: [
-    "main",
+    "master",
     // if you want to release from the branch, we can type the branch name here
     { name: "add-github-action-npm-publish", prerelease: true },
   ],

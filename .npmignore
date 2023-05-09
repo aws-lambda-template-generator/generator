@@ -15,6 +15,6 @@ commitlint.config.js
 jest.config.js
 .czrc
 .eslintrc.js
-
+REFERENCE.md
 
 # Note that README.md and LICENSE will be always included even it is listed here!

@@ -7,3 +7,7 @@ List of todos ideas...
 If we have a private module (e.g. my-module) and pull the dependencies from there in the project, the attacker can create a public module with the same name with higher version number, then npm will automatically download it from the higher version number one. Therefore, the project starts using the malicious one as a dependency. Therefore, we need a namespace on the dependency to prevent it. Source (https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations)
 
 - Try ink for better console experience.
+
+## Mystery commitizen issue...
+
+https://github.com/commitizen/cz-cli/issues/441

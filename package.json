@@ -41,8 +41,7 @@
     "ink": "^3.0.8",
     "install": "^0.13.0",
     "react": "^17.0.1",
-    "recursive-copy": "^2.0.10",
-    "commit": "cz"
+    "recursive-copy": "^2.0.10"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
@@ -51,7 +50,8 @@
     "@semantic-release/npm": "^9.0.0",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "chai": "^4.2.0",
-    "commitizen": "^4.2.4",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.4.0",
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
