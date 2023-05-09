@@ -21,3 +21,14 @@ Ok, I just needed to add this in package.json
   }
 },
 ```
+
+# Error with semantic-release `fatal: tag 'v1.4.0' already exists`
+
+1. Try to fix by pushing tags, but this didn't fix.
+
+```bash
+git tag -a v1.5 -m "troubleshoot semantic-release 1.5"
+git push origin --tags
+```
+
+2. Deleted the tags from Github repo UI.
