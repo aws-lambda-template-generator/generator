@@ -5,6 +5,7 @@ public
 .github
 .husky
 .vscode
+ink-support
 
 # files
 yarn.lock
