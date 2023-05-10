@@ -34,3 +34,5 @@ git push origin --tags
 2. Deleted the tags from Github repo UI.
 
 It seemed to fix the issue of creating the tag v1.4, but failed to publish because v1.4 is already in the npm repo.
+
+Then, made another commit with a fix tag to update the version. This created tag v1.4.1 and npm module release v1.4.1
