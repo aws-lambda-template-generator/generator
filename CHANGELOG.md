@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/aws-lambda-template-generator/generator/compare/v1.4.0...v1.4.1) (2023-05-09)
+
+
+### Bug Fixes
+
+* **semantic-release:** hopefully, this is the last commit to fix semantic-release publishing issue! ([c40f111](https://github.com/aws-lambda-template-generator/generator/commit/c40f1116d3229f991cff1cb0fdfc543c010034ac))
+
 # [1.4.0](https://github.com/aws-lambda-template-generator/generator/compare/v1.3.2...v1.4.0) (2023-05-09)
 
 
